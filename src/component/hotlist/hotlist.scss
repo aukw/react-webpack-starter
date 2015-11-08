@@ -1,0 +1,34 @@
+
+.yxui-items {
+	border-top: 1px solid #ebebeb;
+}
+
+.yxui-item {
+	position: relative;
+	padding: 12px 15px;
+	overflow: hidden;
+	border-bottom: 1px solid #ebebeb;
+
+	a:not(.btn) {
+		position: relative;
+		display: block;
+		padding: inherit;
+		margin: -12px -15px;
+		overflow: hidden;
+		color: inherit;
+
+		&:active {
+			background-color: #eee;
+		}
+	}
+
+	p {
+		font-size: 14px;
+		color: #999;
+	}
+
+	.yxui-item-header {
+		float: left;
+		margin-right: 10px;
+	}
+}

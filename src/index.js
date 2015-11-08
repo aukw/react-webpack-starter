@@ -3,6 +3,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import HotList from './component/hotlist/hotlist';
 
+import './index.scss';
+
 var hots = [{
 	url: 'http://i12.tietuku.com/29356f2591826920t.jpg',
 	imgUrl: 'http://i12.tietuku.com/29356f2591826920t.jpg',

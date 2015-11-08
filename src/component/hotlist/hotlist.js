@@ -2,6 +2,8 @@
 import React from 'react';
 import HotItem from '../hotitem/hotitem';
 
+import './hotlist.scss';
+
 class HotList extends React.Component {
 
     render() {
