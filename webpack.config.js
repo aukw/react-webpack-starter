@@ -29,7 +29,7 @@ module.exports = {
     }, 
     plugins: [
         new HtmlWebpackPlugin({
-            title: '精选推荐 — 易信公众平台',
+            title: '精选推荐',
             template: './src/index.html',
             inject: 'body'
         })
